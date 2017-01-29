@@ -1,0 +1,32 @@
+{
+  "name": "react-skeleton",
+  "version": "1.0.0",
+  "description": "react-tutorial-for-beginners",
+  "main": "index.js",
+  "scripts": {
+    "start": "watchify src/main.jsx -v -t [ babelify --presets [ react ] ] -o public/js/main.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AllanRevenig/react-skeleton.git"
+  },
+  "keywords": [
+    "learn",
+    "react"
+  ],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AllanRevenig/react-skeleton/issues"
+  },
+  "homepage": "https://github.com/AllanRevenig/react-skeleton#readme",
+  "dependencies": {
+    "babel-preset-react": "^6.22.0",
+    "babelify": "^7.3.0",
+    "browserify": "^14.0.0",
+    "react": "^15.4.2",
+    "react.dom": "^1.0.1",
+    "watchify": "^3.9.0"
+  }
+}
