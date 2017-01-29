@@ -1,0 +1,31 @@
+https://www.youtube.com/watch?v=0ByoQm-vnYw
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+open Ubuntu on Windows 10
+allan@SAMSON:~$
+allan@SAMSON:~$ cd /mnt/d/code/sandbox/
+allan@SAMSON:/mnt/d/code/sandbox$
+
+from chrome navigate: https://github.com/AllanRevenig
+
+	create repo: "react-skeleton"
+	no README.md
+
+	copy repo name: https://github.com/AllanRevenig/react-skeleton
+
+$ mkdir react-skeleton
+$ cd react-skeleton
+$ git init
+  >>> oops, unable to resolve host SAMSON
+  >>> run: sudo apt-get install git
+$ sudo apt-get install git
+$ git init
+  >>> Initialized empty Git repository in /mnt/d/code/sandbox/react-skeleton/.git/
+allan@SAMSON:/mnt/d/code/sandbox/react-skeleton$ ls -al
+total 9
+drwxrwxrwx 2 root root   0 Jan 28 18:41 .
+drwxrwxrwx 2 root root   0 Jan 28 18:35 ..
+drwxrwxrwx 2 root root   0 Jan 28 18:46 .git
+-rwxrwxrwx 1 root root 656 Jan 28 18:46 react-tutorial-for-beginners.txt
+
+allan@SAMSON:/mnt/d/code/sandbox/react-skeleton$ git remote add origin https://github.com/AllanRevenig/react-skeleton
