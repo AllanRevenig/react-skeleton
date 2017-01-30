@@ -11,7 +11,7 @@ var List = React.createClass({
 	render: () => {
 		var listItems = ingredients.map(item => {
 			return <ListItem key={"item.id"} ingredient={"item.text"} />;
-		})
+		});
 		return (<ul>{listItems}</ul>);
 	}
 });
