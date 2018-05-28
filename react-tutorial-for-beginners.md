@@ -1,7 +1,8 @@
-https://www.youtube.com/watch?v=0ByoQm-vnYw
-https://github.com/devslopes/react-skeleton
+[React Tutorial for Beginners](https://www.youtube.com/watch?v=0ByoQm-vnYw)
 
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+[devslopes is dubious](https://github.com/devslopes/react-skeleton)
+
+~~~
 open Ubuntu on Windows 10
 allan@SAMSON:~$
 allan@SAMSON:~$ cd /mnt/d/code/sandbox/
@@ -31,10 +32,10 @@ drwxrwxrwx 2 root root   0 Jan 28 18:46 .git
 
 allan@SAMSON:/mnt/d/code/sandbox/react-skeleton$ git remote add origin https://github.com/AllanRevenig/react-skeleton
 
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-going forward using $$ as a shortcut for this: allan@SAMSON:/mnt/d/code/sandbox/react-skeleton$
+
+going forward using $$ as a shortcut for this:allan@SAMSON:/mnt/d/code/sandbox/react-skeleton$
 or if a git repo: $(branch)$
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
 
 $$ touch README.md
 
@@ -48,7 +49,7 @@ Changes to be committed:
         new file:   react-tutorial-for-beginners.txt
 
 allan@SAMSON:/mnt/d/code/sandbox/react-skeleton$ git commit -m 'add readme and notes files'
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
 *** Please tell me who you are.
 Run
 
@@ -58,7 +59,7 @@ Run
 to set your account's default identity.
 Omit --global to set the identity only in this repository.
 fatal: unable to auto-detect email address (got 'allan@SAMSON.(none)')
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
 
 $$ git config --global user.email "allanr@msn.com"
 $$ git config --global user.name "Allan Revenig"
@@ -94,10 +95,11 @@ $$ npm install --save watchify
 $$ npm install --save babel-preset-react
 $$ npm install --save react react-dom
 
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
 https://zellwk.com/blog/gitignore/
 add this to .gitignore for windows
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
 # Windows thumbnail cache files
 Thumbs.db
 ehthumbs.db
@@ -117,6 +119,5 @@ $RECYCLE.BIN/
 
 # Windows shortcuts
 *.lnk
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 $$
